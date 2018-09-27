@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigController {
 
-    @Value("${foo}")
-    String foo;
+    @Value("${server.port}")
+    private String port;
+
     @RequestMapping(value = "/hi")
-    public String hi(){
-        return foo;
+    public String hi() {
+        return port;
     }
 }

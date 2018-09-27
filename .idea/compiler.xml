@@ -9,6 +9,7 @@
         <module name="client" />
         <module name="config-client" />
         <module name="config-server" />
+        <module name="eureka" />
         <module name="eureka-server" />
         <module name="server" />
         <module name="service-feign" />

@@ -12,6 +12,7 @@ public class UserController {
 
     @RequestMapping("/hi")
     public String home(@RequestParam String name) {
-        return "hi " + name + ",i am from port:" + port;
+        System.out.println("11111");
+        return "hi " + name + ",i am from port:" ;
     }
 }
